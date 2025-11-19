@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css">
+  <title>FaithBeat</title>
+</head>
+
+<body>
+
+  <!-- NAVIGATION BAR -->
+  <nav class="nav-bar">
+    <div class="logo">
+      <div>
+        <img class="main-logo" src="assets/main-logo/faithBeat-logo.png" alt="faithbeat-logo">
+      </div>
+      <span class="title">FaithBeat</span>
+    </div>
+
+    <div class="search-bar">
+      <img class="search-icon" src="assets/icon/magnifiying-glass.png" alt="search" />
+      <input class="search" type="text" placeholder="Search songs or instruments..." />
+    </div>
+
+    <button class="hamburger-menu" id="hamburger-btn">
+      <img src="assets/menu/menu2.png" alt="Menu" style="width: 24px; height: 24px;">
+    </button>
+
+    <div class="nav-link" id="nav-links">
+      <a href="#home">Home</a>
+      <a href="#mission">Mission</a>
+      <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero">
+    <div class="welcome">
+      <h1>Welcome to FaithBeat</h1>
+      <p>
+        Experience music in a new way! FaithBeat lets every 
+        musician control the sound of each instrument, 
+        add music, use a built-in metronome, and communicate with 
+        other musicians using talkback — all through Bluetooth or Wi-Fi.
+      </p>
+      <div class="icons">
+        <img class="icon-logo" src="assets/icon/facebook.png" alt="facebook" />
+        <img class="icon-logo" src="assets/icon/instagram.png" alt="instagram" />
+        <img class="icon-logo" src="assets/icon/twitter.png" alt="twitter" />
+        <img class="icon-logo" src="assets/icon/youtube.png" alt="youtube" />
+      </div>
+      <a href="#features" class="btn">Explore Now</a>
+    </div>
+
+    <div class="demo">
+      <img class="mobile" src="assets/main-logo/mobilephone.png" alt="FaithBeat App Preview" />
+    </div>
+  </section>
+
+  <!-- MISSION SECTION -->
+  <section id="mission" class="content-section">
+    <h2>FaithBeat Mission</h2>
+    <div class="slider-wrapper">
+      <button class="slider-btn prev-btn" id="mission-prev">
+        <img src="https://api.iconify.design/lucide/chevron-left.svg" alt="Previous">
+      </button>
+
+      <div class="content-container" id="mission-slider">
+        <div class="content-card">
+          <img src="https://api.iconify.design/lucide/heart-pulse.svg" alt="Empowering Musicians" />
+          <h3>Empowering Every Musician</h3>
+          <p>
+            FaithBeat’s mission is to give every musician  
+            whether a student, worship member, or band player  
+            an affordable and simple way to hear themselves 
+            clearly and play in sync with others.
+          </p>
+        </div>
+
+        <div class="content-card">
+          <img src="https://api.iconify.design/lucide/users.svg" alt="Connect On Any Device" />
+          <h3>Connect On Any Device</h3>
+          <p>
+            FaithBeat connects up to 20 musicians using Bluetooth or 
+            Wi-Fi, with no internet needed. 
+            Practice or perform anywhere while staying 
+            perfectly in time together.
+          </p>
+        </div>
+      </div>
+
+      <button class="slider-btn next-btn" id="mission-next">
+        <img src="https://api.iconify.design/lucide/chevron-right.svg" alt="Next">
+      </button>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about-section">
+    <div class="about-container">
+      <div class="about-image">
+        <img src="assets/main-logo/faithbeat_home.png" alt="FaithBeat System" />
+      </div>
+      <div class="about-text">
+        <h2>How FaithBeat Works</h2>
+        <p>
+          FaithBeat uses AI technology to detect and separate sounds 
+          like guitar, bass, drums, and keyboard from any song.
+          Each musician can adjust volume levels, hear only what they 
+          need, and practice in sync  even without expensive equipment.
+        </p>
+        <p>
+          Using Bluetooth or Wi-Fi, one phone acts as the host, 
+          connecting up to 20 devices. 
+          The app minimizes delay, ensuring clear and 
+          real-time sound for everyone.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES SECTION -->
+  <section id="features" class="feature-section">
+    <h2>Key FaithBeat Features</h2>
+    <div class="feature-container">
+      <div class="feature-card">
+        <img src="assets/cards/volume.png" alt="Sound Control" />
+        <h3>Individual Sound Control</h3>
+        <p>Adjust the volume of each instrument easily — guitar, 
+          bass, drums, or keyboard — directly from your phone.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <img src="assets/cards/ai.png" alt="AI Separation" />
+        <h3>AI Sound Separation</h3>
+        <p>FaithBeat’s AI detects and separates instruments 
+          automatically, giving you clean, adjustable tracks for 
+          perfect practice.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <img src="assets/cards/wireless.png" alt="Wireless Connect" />
+        <h3>Wireless Group Connection</h3>
+        <p>Connect up to 20 devices through Wi-Fi or Bluetooth and 
+          play together in real time without internet data.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <img src="assets/cards/mic2.png" alt="Talkback" />
+        <h3>Talkback Feature</h3>
+        <p>Use your headset mic to talk with other musicians  
+          perfect for communication during rehearsals and performances.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact-section">
+    <h2>Get In Touch</h2>
+    <p>Have questions or suggestions for FaithBeat? We’d love to hear from you!</p>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message..." rows="5" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 FaithBeat | Designed with Passion for Music</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
